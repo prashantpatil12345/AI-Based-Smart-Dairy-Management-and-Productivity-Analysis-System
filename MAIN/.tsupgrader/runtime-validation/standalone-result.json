@@ -1,0 +1,97 @@
+{
+  "planHash": "cb98f7edd3f5bceebb05bcfb39e342e657f7268ccd303c82c83ca134cf590f8d",
+  "phase": "standalone",
+  "recordedAtUtc": "2026-10-25T17:22:41.3138684Z",
+  "retryCount": 0,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 0,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "production-build",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E vite_react_shadcn_ts@0.0.0 build\r\n\u003E vite build\r\n\r\n\u001B[36mvite v5.4.19 \u001B[32mbuilding for production...\u001B[36m\u001B[39m\r\ntransforming...\r\nBrowserslist: browsers data (caniuse-lite) is 16 months old. Please run:\r\n  npx update-browserslist-db@latest\r\n  Why you should do it regularly: https://github.com/browserslist/update-db#readme\r\n\u001B[32m\u2713\u001B[39m 2510 modules transformed.\r\nrendering chunks...\r\ncomputing gzip size...\r\n\u001B[2mdist/\u001B[22m\u001B[32mindex.html                 \u001B[39m\u001B[1m\u001B[2m  1.40 kB\u001B[22m\u001B[1m\u001B[22m\u001B[2m \u2502 gzip:   0.59 kB\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[35massets/index-fFTKdXsm.css  \u001B[39m\u001B[1m\u001B[2m 73.89 kB\u001B[22m\u001B[1m\u001B[22m\u001B[2m \u2502 gzip:  12.33 kB\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[36massets/vendor-Bh83etoF.js  \u001B[39m\u001B[1m\u001B[2m204.79 kB\u001B[22m\u001B[1m\u001B[22m\u001B[2m \u2502 gzip:  65.27 kB\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[36massets/ui-Bh6KDLYN.js      \u001B[39m\u001B[1m\u001B[2m419.18 kB\u001B[22m\u001B[1m\u001B[22m\u001B[2m \u2502 gzip: 120.58 kB\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[36massets/index-CApBaw1_.js   \u001B[39m\u001B[1m\u001B[33m558.19 kB\u001B[39m\u001B[22m\u001B[2m \u2502 gzip: 152.51 kB\u001B[22m\r\n\u001B[33m\r\n(!) Some chunks are larger than 500 kB after minification. Consider:\r\n- Using dynamic import() to code-split the application\r\n- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks\r\n- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.\u001B[39m\r\n\u001B[32m\u2713 built in 18.44s\u001B[39m\r\n",
+        "durationMs": 20108
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E vite_react_shadcn_ts@0.0.0 test\r\n\u003E vitest run\r\n\r\n\r\n\u001B[1m\u001B[46m RUN \u001B[49m\u001B[22m \u001B[36mv3.2.4 \u001B[39m\u001B[90mC:/Users/prashantpatil/OneDrive/Documents/Desktop/SmartDairy/cow-care-chronicles-main\u001B[39m\r\n\r\n \u001B[32m\u2713\u001B[39m src/test/example.test.ts \u001B[2m(\u001B[22m\u001B[2m1 test\u001B[22m\u001B[2m)\u001B[22m\u001B[32m 4\u001B[2mms\u001B[22m\u001B[39m\r\n\r\n\u001B[2m Test Files \u001B[22m \u001B[1m\u001B[32m1 passed\u001B[39m\u001B[22m\u001B[90m (1)\u001B[39m\r\n\u001B[2m      Tests \u001B[22m \u001B[1m\u001B[32m1 passed\u001B[39m\u001B[22m\u001B[90m (1)\u001B[39m\r\n\u001B[2m   Start at \u001B[22m 22:52:32\r\n\u001B[2m   Duration \u001B[22m 6.04s\u001B[2m (transform 53ms, setup 475ms, collect 35ms, tests 4ms, environment 2.62s, prepare 391ms)\u001B[22m\r\n\r\n",
+        "durationMs": 8619,
+        "testResults": {
+          "testFramework": "vitest",
+          "runnerDetectedFrom": "package_json",
+          "testsTotal": 1,
+          "testsPassed": 1,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": false
+        }
+      },
+      {
+        "name": "dev-server-serves-home",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!doctype html\u003E\n\n\u003Chtml lang=\u0022en\u0022\u003E\n  \u003Chead\u003E\n    \u003Cscript type=\u0022module\u0022\u003Eimport { injectIntoGlobalHook } from \u0022/@react-refresh\u0022;\ninjectIntoGlobalHook(window);\nwindow.$RefreshReg$ = () =\u003E {};\nwindow.$RefreshSig$ = () =\u003E (type) =\u003E type;\u003C/script\u003E\n\n    \u003Cscript type=\u0022module\u0022 src=\u0022/@vite/client\u0022\u003E\u003C/script\u003E\n\n    \u003Cmeta charset=\u0022UTF-8\u0022 /\u003E\n    \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 /\u003E\n\n\u003C!-- App Title --\u003E\n\u003Ctitle\u003ESmartDairy\u003C/title\u003E\n\n\u003C!-- SEO Meta --\u003E\n\u003Cmeta name=\u0022description\u0022 content=\u0022Smart Dairy Management System - Manage cattle, milk records, and analytics efficiently.\u0022 /\u003E\n\u003Cmeta name=\u0022author\u0022 content=\u0022SmartDairy\u0022 /\u003E\n\n\u003C!-- Open Graph (for sharing) --\u003E\n\u003Cmeta property=\u0022og:title\u0022 content=\u0022SmartDairy\u0022 /\u003E\n\u003Cmeta property=\u0022og:description\u0022 content=\u0022Smart Dairy Management System\u0022 /\u003E\n\u003Cmeta property=\u0022og:type\u0022 content=\u0022website\u0022 /\u003E\n\u003C!-- Optional: Replace with your own image later --\u003E\n\u003Cmeta property=\u0022og:image\u0022 content=\u0022/logo.png\u0022 /\u003E\n\n\u003C!-- Twitter Card --\u003E\n\u003Cmeta name=\u0022twitter:card\u0022 content=\u0022summary_large_image\u0022 /\u003E\n\u003Cmeta name=\u0022twitter:title\u0022 content=\u0022SmartDairy\u0022 /\u003E\n\u003Cmeta name=\u0022twitter:description\u0022 content=\u0022Smart Dairy Management System\u0022 /\u003E\n\u003Cmeta name=\u0022twitter:image\u0022 content=\u0022/logo.png\u0022 /\u003E\n\n\u003C!-- Favicon --\u003E\n\u003Clink rel=\u0022icon\u0022 href=\u0022/logo.ico\u0022 /\u003E\n  \u003C/head\u003E\n\n  \u003Cbody\u003E\n    \u003Cdiv id=\u0022root\u0022\u003E\u003C/div\u003E\n\n\u003C!-- React / Vite Entry --\u003E\n\u003Cscript type=\u0022module\u0022 src=\u0022/src/main.tsx\u0022\u003E\u003C/script\u003E\n\n  \u003C/body\u003E\n\u003C/html\u003E\n\n--- server output ---\n\r\n\u003E vite_react_shadcn_ts@0.0.0 dev\r\n\u003E vite\r\n\r\n\r\n  \u001B[32m\u001B[1mVITE\u001B[22m v5.4.19\u001B[39m  \u001B[2mready in \u001B[0m\u001B[1m782\u001B[22m\u001B[2m\u001B[0m ms\u001B[22m\r\n\r\n  \u001B[32m\u279C\u001B[39m  \u001B[1mLocal\u001B[22m:   \u001B[36mhttp://localhost:\u001B[1m8080\u001B[22m/\u001B[39m\r\n  \u001B[32m\u279C\u001B[39m  \u001B[1mNetwork\u001B[22m: \u001B[36mhttp://10.33.194.82:\u001B[1m8080\u001B[22m/\u001B[39m\r\n  \u001B[32m\u279C\u001B[39m  \u001B[1mNetwork\u001B[22m: \u001B[36mhttp://172.22.192.1:\u001B[1m8080\u001B[22m/\u001B[39m\r\n",
+        "durationMs": 1691
+      }
+    ],
+    "executions": [
+      {
+        "source": "production-build",
+        "resolvedExecutable": "C:\\Users\\prashantpatil\\AppData\\Roaming\\npm\\npm.CMD",
+        "args": [
+          "run",
+          "build"
+        ],
+        "cwd": "C:\\Users\\prashantpatil\\OneDrive\\Documents\\Desktop\\SmartDairy\\cow-care-chronicles-main",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "tests-pass",
+        "resolvedExecutable": "C:\\Users\\prashantpatil\\AppData\\Roaming\\npm\\npm.CMD",
+        "args": [
+          "test"
+        ],
+        "cwd": "C:\\Users\\prashantpatil\\OneDrive\\Documents\\Desktop\\SmartDairy\\cow-care-chronicles-main",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "dev-server-serves-home",
+        "resolvedExecutable": "C:\\Users\\prashantpatil\\AppData\\Roaming\\npm\\npm.CMD",
+        "args": [
+          "run",
+          "dev"
+        ],
+        "cwd": "C:\\Users\\prashantpatil\\OneDrive\\Documents\\Desktop\\SmartDairy\\cow-care-chronicles-main",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}

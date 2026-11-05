@@ -1,0 +1,13 @@
+project_id = "lfnirxpxeyopzazvjtpa"
+
+[functions.breed-recognition]
+verify_jwt = false
+
+[functions.confirm-breed]
+verify_jwt = false
+
+[functions.reports]
+verify_jwt = false
+
+[functions.seed-demo-data]
+verify_jwt = false

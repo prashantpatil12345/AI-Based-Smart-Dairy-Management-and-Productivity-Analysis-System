@@ -1,0 +1,52 @@
+﻿# Python virtual environments
+.venv/
+**/.venv/
+venv/
+**/venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Build output and caches
+dist/
+**/dist/
+coverage/
+**/coverage/
+.vite/
+**/.vite/
+
+# Environment files and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Playwright generated files
+playwright-report/
+test-results/
+playwright/.auth/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Supabase temporary files
+MAIN/supabase/.temp/
+
+# Generated Vite timestamp files
+MAIN/vite.config.ts.timestamp-*.mjs
